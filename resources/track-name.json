@@ -1,0 +1,103 @@
+{
+  "created": "2011-10-05T14:48:00.000Z",
+  "updated": "2011-10-05T14:48:00.000Z",
+  "name": "short-hike",
+  "slug": "short-kike",
+  "id": "kp4-p3PObiAOcEhK5X_qg",
+  "weather": "hot",
+  "rating": 4.5,
+  "votes": 8,
+  "duration": 3600,
+  "distance": 5000,
+  "levelUp": 146,
+  "levelDown": 0,
+  "imageName": "track_1.png",
+  "difficulty": "easy",
+  "description": "The short hike is a round trip route of little difficulty that gains height progressively under the shade of the pine trees forest. The path is quite comfortable and relatively easy to follow until reaching Alto de los Horcajos. A small ascent along a side path leads to a refreshing watering hole near the summit of Alto del Hilo.",
+  "descriptionShort": "The short hike is a round trip route of little difficulty. The path is quite comfortable and relatively easy to follow.",
+  "steps": [
+    {
+      "id": "ZBltFy-tMMqwWhYFACMp0",
+      "name": "Access the forest zone",
+      "description": "Walk to the clean point and go straight to the small pass in the fence at your left. Walk straight from the fence pass until you find a crossing path.",
+      "compass": "N",
+      "additionalData": [
+        "Clean point can be reached crossing under the bridge when the river flow allows it, or following the concrete path",
+        "While there's enough water dogs can refresh in the river parallel to the fence before and after the hike",
+        "The path climbs a few meters until it reaches the first line of the forest",
+        "By far it's the uggliest part of the route"
+      ] 
+    },
+    {
+      "id": "ZgbwERTToByn-1_uHNU6-",
+      "name": "Get into the shadow",
+      "description": "Turn right along any of the paths that cross and continue parallel to the road until you reach the first groups of large granite rocks. Enter the forest on your left and look for the path uphill between the first rows of pine trees.",
+      "compass": "O",
+      "additionalData": [
+        "The higher the path you choose the sorter to reach the same point",
+        "Enter the pine trees between the first and second formations"
+      ] 
+    },
+    {
+      "id": "xh0AdCEgCLp5UR2eZc1td",
+      "name": "The Alto de los Horcajos",
+      "description": "Continue ascending parallel to the road and the main path through the pine forest, go up a small ramp to the left and continue along the same path until you see a granite formation with several fallen pine trees at its feet. Follow them until you reach the top.",
+      "compass": "O",
+      "additionalData": [
+        "At the top several paths converge",
+        "In this area you will be exposed to the sun, it is not convenient to spend too much time"
+      ] 
+    },
+    {
+      "id": "ooAILPuXfKx5u_rePTnkN",
+      "name": "Traversing the high",
+      "description": "Take the path immediately to the right of the top to cross it to the right, avoiding the summit as there are many rocks debris and bushes that prevent you from ascending it comfortably.",
+      "compass": "O",
+      "additionalData": [
+        "If you want a little more adventure, you can try to reach the top by going through successive low-difficulty climbs",
+        "Some hikers may prefer long pants and more technical footwear if they decide to climb the granite accumulations",
+        "No need to carry climbing gear"
+      ] 
+    },
+    {
+      "id": "GdNV93cwm5Ho3j626L_ml",
+      "name": "Reaching the Alto del Hilo",
+      "description": "Once you have returned to the forest level, always to the right of Alto de los Horcajos, follow the first ascending path until you reach the top again. Wind to the right and up until you see a huge formation with two large stones drawing a kind of door. Go up the path to your right.",
+      "compass": "O",
+      "additionalData": [
+        "Once again you can try to climb the rock formation, quite affordable for any age",
+        "The side path leads to a narrow creek bed in the bushes, that's the way to go",
+        "Between February and May you may find that the creek carries some water but not enough that you cannot climb up the stream",
+        "If you look east from the clearing you can see the Manzanares El Real reservoir and its splendid 15th century castle"
+      ] 
+    },
+    {
+      "id": "JCPnOJkFe1C6g-VgOTpuM",
+      "name": "The watering hole",
+      "description": "Once you have passed the gate or you're level with it from the path, turn south to find a small clearing behind the rock massif and immediately west again to enter the forest at the foot of Alto del Thread. A few meters further on you will find the watering hole.",
+      "compass": "O",
+      "additionalData": [
+        "You will notice some changes in the vegetation that reveal the presence of water, the ferns grow on the banks of the river and the vines abound near the source",
+        "It is a perfect place to cool off and rest",
+        "The water is drinkable"
+      ] 
+    }
+  ],
+  "comments": [
+    {
+      "id": "qXrwivyFduy8F0FKuwJg9",
+      "date": "2013-07-23T14:48:00.000Z",
+      "author": "merlin@yahoo.com",
+      "text": "I really liked the route but it was hotter than expected, luckily there was still water in the trough.",
+      "rating": 3
+    },
+    {
+      "id": "kLMFRkmLD1hmygeYKKuHT",
+      "date": "2016-09-01T14:48:00.000Z",
+      "author": "thegoodwalker@gmail.com",
+      "text": "We have done the route as a family, it has turned out very well, a wonderful environment with incredible views.",
+      "rating": 4
+    }
+  ]
+}
+ 

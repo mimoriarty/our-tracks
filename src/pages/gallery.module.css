@@ -1,0 +1,18 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter';
+  font-weight: 200;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.image-date {
+  color: #cdff8c;
+  margin-top: 0;
+}
+
+.image-label {
+  margin: 8px 0 6px 0;
+}

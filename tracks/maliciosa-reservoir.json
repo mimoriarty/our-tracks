@@ -1,0 +1,54 @@
+{
+  "created": "2009-04-26T14:48:00.000Z",
+  "updated": "2009-04-26T14:48:00.000Z",
+  "name": "maliciosa-reservoir",
+  "slug": "maliciosa-reservoir",
+  "formattedName": "Maliciosa Reservoir",
+  "id": "q6nLgmEtUE0cqagoGyZ7S",
+  "weather": "cold",
+  "rating": 5,
+  "votes": 4,
+  "duration": 11400,
+  "distance": 11000,
+  "levelUp": 272,
+  "levelDown": 27,
+  "image": {
+    "src": "track_2.png"
+  },
+  "difficulty": "medium",
+  "description": "The ascent to the maliciosa reservoir is a track with steep slopes that do not give a break in the first 50 minutes, then, at the foot of the reservoir, it is possible to choose to return by the same path or take a detour to return through the Almorchones and the Angostura stream.",
+  "descriptionShort": "The ascent to the maliciosa reservoir is a track with steep slopes that do not give a break in the first 50 minutes.",
+  "steps": [
+    {
+      "id": "_JIrdYz4YPEPa8gN78k1D",
+      "name": "Vista Real",
+      "description": "From the entrance of the urbanization take the main street to the end. To the right is a gate that provides access to the track. From there, there is no possible loss.",
+      "compass": "N",
+      "additionalData": [
+        "After a few turns it is possible to cool off for a moment at the Peña Colmena fountain, at the left of the track, from where we can see the entire valley",
+        "Although at first the slope is gentle, it is advisable to take a moderate and continuous step so as not to get tired before time",
+        "The water at Peña Colmena is drinkable"
+      ] 
+    },
+    {
+      "id": "ln6ZDPgsEM3AllQewG156",
+      "name": "The reservoir",
+      "description": "Take the detour to the right to reach the reservoir. After crossing it, it is possible to continue towards La Maliciosa, take a detour through the Los Almorchones valley and return via the Angostura stream, or return along the same path.",
+      "compass": "E",
+      "additionalData": [
+        "It is advisable to respect the indications in the reservoir",
+        "The return through the valley of the Almorchones and Peña Jardinera stream is undoubtedly the most recommended, there is a fountain along the way to cool off and even a small dam where many people go up to bathe in summer"
+      ] 
+    }
+  ],
+  "comments": [
+    {
+      "id": "9uNP1F9jz_71AKFpzHkL5",
+      "date": "2016-02-11T14:48:00.000Z",
+      "author": "berli@hotmail.com",
+      "text": "We started the day making the ascent and spend a few hours in the Los Almorchones valley, a lovely place",
+      "rating": 4
+    }
+  ]
+}
+ 
