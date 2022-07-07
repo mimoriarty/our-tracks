@@ -9,7 +9,7 @@ const getTrackDuration = t => {
   const hDisplay = h > 0 ? h + "h" : ""
   const mDisplay = m > 0 ? m + "'" : ""
 
-  return [hDisplay, mDisplay].join(' ')
+  return [hDisplay, mDisplay].join(' ').trim()
 }
 const timeUtils = {
   getTrackDuration

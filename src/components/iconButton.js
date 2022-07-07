@@ -11,10 +11,10 @@ const IconButton = props => {
     orange: orangeButton,
     white: whiteButton,
   }
-  const buttonClasses = `${button} ${colorMapper[props.color]}`
+  const buttonClasses = `${button} ${colorMapper[props.color || "white"]}`
 
   return (
-    <Link to={props.url} className={buttonClasses}>
+    <Link to={props.url} className={buttonClasses} data-testid="button-icon">
       <FontAwesomeIcon
         className={buttonIcon}
         icon={props.icon}

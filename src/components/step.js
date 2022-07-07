@@ -29,7 +29,7 @@ const Step = props => {
   const [hidden, setHidden] = React.useState(true)
 
   return (
-    <div className={stepContainer}>
+    <div className={stepContainer} data-testid="step">
       <button
         type="button"
         className={expandableTitle}

@@ -63,10 +63,18 @@
   text-transform: uppercase;
 }
 
-.wheather-badge {
+.weather-cold {
+  color: #2fc1ff;
+}
+
+.weather-cold span {
+  text-transform: capitalize;
+}
+
+.weather-hot {
   color: #F3BE00;
 }
 
-.wheather-badge span {
+.weather-hot span {
   text-transform: capitalize;
 }

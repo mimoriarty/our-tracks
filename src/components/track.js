@@ -3,6 +3,9 @@ import Layout from "./layout"
 import Step from "./step"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+//utils
+import timeUtils from "../utils/time"
+
 // fonts
 import "@fontsource/Inter/300.css"
 import {
@@ -23,24 +26,34 @@ import {
   trackContainer,
   trackDescription,
   trackTag,
-  wheatherBadge,
+ weatherCold,
+ weatherHot,
 } from "./track.module.css"
 
 const Track = ({ location, pageContext }) => {
-  const stepsItems = pageContext.steps.map((step, key) => <li key={key}><Step num={key+1} {...step}/></li>)
+  const stepsItems = pageContext.steps
+    ? pageContext.steps.map((step, key) => (
+        <li key={key}>
+          <Step num={key + 1} {...step} />
+        </li>
+      ))
+    : null
+  const trackDuration = timeUtils.getTrackDuration(pageContext.duration)
+  const isCold = pageContext.weather !== "hot"
+
+  console.log(pageContext.weather)
 
   return (
     <Layout back={true} backTo={location?.state?.from}>
-      <div className={trackContainer}>
-        <h2>{pageContext.formattedName} ({Math.round(pageContext.distance / 1000)} km)</h2>
+      <div className={trackContainer} data-testid="track">
+        <h2>
+          {pageContext.formattedName} ({Math.round(pageContext.distance / 1000)}{" "}
+          km)
+        </h2>
         <ul className={infoContainer}>
           <li>
-            <FontAwesomeIcon
-              className={infoIcon}
-              icon={faClock}
-              size="1x"
-            />
-            <span>55'</span>
+            <FontAwesomeIcon className={infoIcon} icon={faClock} size="1x" />
+            <span>{trackDuration}</span>
           </li>
           <li>
             <FontAwesomeIcon
@@ -48,7 +61,7 @@ const Track = ({ location, pageContext }) => {
               icon={faArrowCircleUp}
               size="1x"
             />
-            <span>122</span>
+            <span>{pageContext.levelUp}</span>
           </li>
           <li>
             <FontAwesomeIcon
@@ -56,38 +69,33 @@ const Track = ({ location, pageContext }) => {
               icon={faArrowCircleDown}
               size="1x"
             />
-            <span>55</span>
+            <span>{pageContext.levelDown}</span>
           </li>
-          {
-            pageContext.weather &&
-            <li className={wheatherBadge}>
+          {pageContext.weather && (
+            <li className={isCold ? weatherCold : weatherHot}>
               <FontAwesomeIcon
                 className={infoIcon}
-                icon={pageContext.weather === "hot" ? faSun : faSnowflake}
+                icon={isCold ? faSnowflake : faSun}
                 size="1x"
               />
               <span>{pageContext.weather}</span>
             </li>
-          }
+          )}
           <li className={ratingBadge}>
-            <FontAwesomeIcon
-              className={infoIcon}
-              icon={faStar}
-              size="1x"
-            />
-            <span>4.5</span>
+            <FontAwesomeIcon className={infoIcon} icon={faStar} size="1x" />
+            <span>{pageContext.rating}</span>
           </li>
         </ul>
         <p className={trackDescription}>{pageContext.description}</p>
-        {stepsItems &&
+        {stepsItems && (
           <div className={stepsContainer}>
             <h3 className={trackTag}>Steps</h3>
             <ul>{stepsItems}</ul>
           </div>
-        }
+        )}
       </div>
     </Layout>
   )
 }
 
-export default Track;
+export default Track

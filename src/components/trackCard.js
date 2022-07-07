@@ -31,7 +31,7 @@ const TrackCard = props => {
   const image = getImage(props.image)
 
   return (
-    <div className={mainContainer}>
+    <div className={mainContainer} data-testid="trackCard">
       <div className={numContainer}>
         <span className={num}>{props.num}</span>
       </div>

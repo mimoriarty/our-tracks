@@ -103,7 +103,7 @@ const Layout = ({ back, backTo, help, children }) => {
   const helpButton = help
 
   return (
-    <div className={mainContainer}>
+    <div className={mainContainer} data-testid="layout">
       {backButton && (
         <Link to={backTo || "/"} className={iconLink}>
           <FontAwesomeIcon
@@ -136,7 +136,7 @@ const Layout = ({ back, backTo, help, children }) => {
         />
         <h1>Our Tracks</h1>
       </header>
-      <MenuLinks nav={nav}>
+      <MenuLinks nav={nav} data-testid="menu">
         <ul>
           <li>
             <Link to="/">Home</Link>
