@@ -1,0 +1,15 @@
+.main-text {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  z-index: 1;
+}
